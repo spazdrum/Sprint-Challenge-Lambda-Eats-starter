@@ -95,7 +95,7 @@ export default function Form() {
             {serverError ? <p className="error">{serverError}</p> : null}
             <label htmlFor="name">
                 What is your name?
-                <textarea name="name" onChange={inputChange} value={formState.name} />
+                <textarea name="name" onChange={inputChange} value={formState.name} data-cy="name" />
             </label>
 
             <label htmlFor="size">
