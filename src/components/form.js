@@ -182,7 +182,7 @@ export default function Form() {
             </label>
 
             <pre>{JSON.stringify(post, null, 2)}</pre>
-            <button type="submit">Place Order</button>
+            <button disabled={isBtnDis} type="submit">Place Order</button>
         </form>
     )
 }
